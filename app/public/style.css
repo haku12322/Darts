@@ -110,6 +110,275 @@ html, body {
         width: 50px;
         height: 50px; }
 
+
+
+    /*<<<<<<<<<<<<<<<<uuganaa css start>>>>>>>>>>>>>>>>>>*/
+    .sticky-filter-mphone{
+      position:-webkit-sticky;
+      position: fixed;
+      bottom: 0;
+      background-color: #ff3300;
+      font-size: 20px;
+      z-index: 100;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+   
+    .sticky-filter-hover{
+      margin-bottom: 23px;
+      position:-webkit-sticky;
+      position: fixed;
+      bottom: 0;
+      background-color: #ff3300;
+      font-size: 20px;
+      z-index: 99;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 20px;
+
+      
+    }
+    .sticky-filter-nav{
+      font-family: Arial, Helvetica, sans-serif;
+        height:160px;
+        position: relative;
+        width:100%;
+        overflow:hidden;
+        overflow-y:scroll;
+    }
+    .sticky-filter-list{
+
+      position:-webkit-sticky;
+      position: relative;
+      bottom: 0;
+      background-color: white;
+      font-size: 45px;
+      z-index: 100;
+      width: 100%;
+      text-align: center;
+      color:black ;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 14px;
+
+    }
+    .icon-with-hover{
+      position: relative;
+    }
+    .icon-with-hover:hover .bag-hover-container{
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-65%);
+      transition: ease-in-out .3s;
+    }
+
+    .bag-hover-container{
+     font-family: Arial, Helvetica, sans-serif;
+     width: 320px;
+     height: 300px;
+     position: absolute;
+     background-color: #ff3300;
+     color: white;
+     text-align: center;
+     border-radius: 30px ;
+     font-size: 10px;
+     left: 50%;
+     transform: translateX(0);
+     margin-top: 16px;
+     visibility: hidden;
+     opacity: 0;
+     transition: ease-in-out .3s;
+    }
+    .bag-hover-container h3{
+      font-size: 20px;
+      margin: 10px 2px;
+    }
+     
+    .inner-bag-hover{
+      color: black; 
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-color: white;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      font-size: 15px;
+    }
+    .inner-bag-hover ul{
+      position: relative;
+      width: 100%;
+      padding: 0 10px;
+      
+    }
+    .inner-bag-hover h4{
+      padding: 10px 0;
+    }
+    .inner-bag-hover li{
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      padding: 6px 0;
+    }      
+   
+    .inner-bag-hover-tprice{
+      position: relative;
+      width: 100%;
+      background-color: rgb(211, 201, 201);
+      padding: 5px 0;
+    }
+    .inner-bag-hover p{
+      display: flex;
+      align-items: center;
+    }
+    .inner-bag-hover-product h6{
+      margin-bottom: 4px;
+    }
+    .inner-bag-hover img{
+      width: 55px;
+      height: 55px;
+      border-radius: 10px;
+    }
+    .purchase-section{
+      display: flex;
+      justify-content: center;
+    }
+    .u-button_red{
+      margin: 9px 0 0 8px;
+    }
+    .u-button{
+      margin: 9px 8px 0 0;
+    }
+    .u-button_red-c {
+      cursor: pointer;
+      font-weight: 700;
+      position: relative;
+      border-radius: 10px;
+      line-height: 1;
+      vertical-align: -10%;
+      transition: all 500ms ease;
+      color: white;
+      background-color: #ff3300;
+      border: 2px solid #ff3300;
+      height: 28px;
+      margin-top: 16px;   }
+
+      .u-button_red-c a {
+        text-decoration: none;
+        color: inherit; }
+    
+    .u-button_red-c:hover {
+      color: #ff3300;
+      background-color: transparent;
+      transition: all 500ms ease; }
+
+      .inner-bag-hover1{
+
+        color: black; 
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: white;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      .icon-with-hover1{
+        position: relative;
+        
+        
+      }
+      .icon-with-hover1:hover .bag-hover-container1{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-65%);
+        transition: ease-in-out .3s;
+      }
+      .bag-hover-container1{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 320px;
+        height: 300px;
+        position: absolute;
+        background-color: #ff3300;
+        color: white;
+        text-align: center;
+        border-radius: 30px ;
+        visibility: hidden;
+        margin-top: 16px;
+        left: 50%;
+        opacity: 0;
+        transform: translateX(0);
+        transition: ease-in-out .3s;
+       }
+
+       .bag-hover-container1 h3{
+         font-size: 35px;
+       }
+       .in-one-row{
+         margin-top: 15px;
+         display: flex;
+         font-size: 15px;
+         justify-content: space-around; 
+       }
+    
+       input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      .u-button_red-login {
+        margin-top: 20px;
+        width: 70%;
+        height: 30%;
+        cursor: pointer;
+        font-weight: 600;
+        position: relative;
+        border-radius: 10px;
+        line-height: 1;
+        vertical-align: -10%;
+        transition: all 500ms ease;
+        color: white;
+        background-color: #ff3300;
+        border: 2px solid #ff3300; 
+        padding: 10px;  }
+
+        .u-button_red-login a {
+          text-decoration: none;
+          color: inherit; 
+          border-radius: 20px;
+        }
+      
+      .u-button_red-login:hover {
+        color: #ff3300;
+        background-color: transparent;
+        transition: all 500ms ease;
+        border-radius: 20px;
+
+       }
+      
+      .login-container {
+        padding: 16px;
+      }
+      
+      .able-to-scroll ul{
+        font-family: Arial, Helvetica, sans-serif;
+        height:160px;
+        position: relative;
+        width:100%;
+        overflow:hidden;
+        overflow-y:scroll;
+      }
+  
+
+
+    /*<<<<<<<<<<<<<<<<uuganaa css end>>>>>>>>>>>>>>>>>>*/
+        
+
 @media screen and (max-width: 992px) {
   .c-header {
     height: unset;
@@ -626,7 +895,7 @@ html, body {
     .c-rapper2__info h2 {
       font-size: 2.6em;
       font-weight: 300;
-      color: #f95d54; }
+      color: #ff3300; }
     .c-rapper2__info h3 {
       font-size: 2.6em;
       font-weight: 200;
@@ -895,7 +1164,7 @@ html, body {
     padding-left: 3%;
     padding-top: 5px; }
     .c-single__info--path {
-      color: #f95d54; }
+      color: #ff3300; }
       .c-single__info--path span {
         font-weight: 800;
         font-size: 1.2em; }
@@ -914,7 +1183,7 @@ html, body {
     .c-single__info .u-hline {
       width: 60%;
       height: 1px;
-      border-bottom: 3px solid #f95d54;
+      border-bottom: 3px solid #ff3300;
       margin: 1.4em 0; }
     .c-single__info #p-price {
       font-weight: 600;
@@ -942,7 +1211,7 @@ html, body {
         margin-left: 5px; }
         .c-single__info--quan_i i {
           font-size: 18px;
-          color: #f95d54; }
+          color: #ff3300; }
     .c-single__info .u-button {
       padding: 0.6em 0;
       border-radius: 2em;
@@ -986,7 +1255,7 @@ html, body {
       text-align: center; }
     .c-single__tabs .transformer-tabs li .active {
       color: #fa746d;
-      border-bottom: #f95d54; }
+      border-bottom: #ff3300; }
     .c-single__tabs .transformer-tabs a {
       display: inline-block;
       color: #d8d8d8;
@@ -996,7 +1265,7 @@ html, body {
       .c-single__tabs .transformer-tabs a:hover {
         color: #2e2d2d; }
       .c-single__tabs .transformer-tabs a.active {
-        border-bottom: 3px solid #f95d54;
+        border-bottom: 3px solid #ff3300;
         position: relative;
         bottom: -3px;
         display: inline-block !important; }
@@ -1024,17 +1293,17 @@ html, body {
           z-index: 1;
           background: transparent;
           /* fallback */
-          border-bottom: 1px solid #f95d54; } }
+          border-bottom: 1px solid #ff3300; } }
     .c-single__tabs .tabs > div {
       display: none;
       padding: 3vw;
       border-bottom: 3px solid #d8d8d8; }
       .c-single__tabs .tabs > div table, .c-single__tabs .tabs > div th, .c-single__tabs .tabs > div td {
-        border: 1px solid #f95d54;
+        border: 1px solid #ff3300;
         text-align: start;
         padding: 1vw 3vw; }
       .c-single__tabs .tabs > div th {
-        color: #f95d54;
+        color: #ff3300;
         font-weight: 800;
         font-size: 1.6vw;
         width: 30%; }
@@ -1114,7 +1383,7 @@ html, body {
           flex-direction: column;
           align-items: flex-end; }
           .c-single__comments--all--one_rating .fa {
-            color: #f95d54; }
+            color: #ff3300; }
           .c-single__comments--all--one_rating span {
             font-weight: 300;
             font-size: 1.2em;
@@ -1135,7 +1404,7 @@ html, body {
       font-weight: 300;
       margin: 0.8em 0; }
     .c-single__inputs .fa {
-      color: #f95d54; }
+      color: #ff3300; }
     .c-single__inputs .u-button2 {
       margin: 3em 0;
       padding: 1em 2em;
@@ -1195,7 +1464,7 @@ html, body {
       .c-blogsingle__left--title--name h2 {
         font-size: 2.2em;
         font-weight: 800;
-        border-bottom: 3px solid #f95d54;
+        border-bottom: 3px solid #ff3300;
         padding-bottom: 0.2em; }
       .c-blogsingle__left--title--name span {
         display: block;
@@ -1218,7 +1487,7 @@ html, body {
           text-align: center;
           font-size: 1.8em;
           font-weight: 800;
-          border-bottom: 3px solid #f95d54;
+          border-bottom: 3px solid #ff3300;
           padding: 0.4em 0;
           margin-top: 0.5em; }
         @media screen and (max-width: 600px) {
@@ -1292,7 +1561,7 @@ html, body {
       align-items: flex-end;
       width: 100%; }
       .c-blogsingle__right--title h3 {
-        color: #f95d54;
+        color: #ff3300;
         font-size: 1.2em;
         font-weight: 600;
         margin-bottom: 1em; }
@@ -1367,13 +1636,13 @@ html, body {
     font-size: 1.6em;
     margin: 0.5em 0; }
   .c-quest .c-quest__list ul li {
-    border-top: 1px solid #f95d54;
+    border-top: 1px solid #ff3300;
     padding: 2em 0; }
     .c-quest .c-quest__list ul li span {
       font-weight: 800;
       font-size: 1.3em; }
     .c-quest .c-quest__list ul li i {
-      color: #f95d54;
+      color: #ff3300;
       font-size: 1.8em; }
     .c-quest .c-quest__list ul li p {
       display: none;
@@ -1383,7 +1652,7 @@ html, body {
     .c-quest .c-quest__list ul li .fa-plus-circle.active {
       transform: rotate(45deg); }
   .c-quest .c-content__nav {
-    border-top: 1px solid #f95d54; }
+    border-top: 1px solid #ff3300; }
 
 .c-cart__rap {
   align-items: center;
@@ -1422,9 +1691,9 @@ html, body {
   .c-cart__items .item-price {
     font-size: 1.2em;
     font-weight: 600;
-    color: #f95d54; }
+    color: #ff3300; }
   .c-cart__items .fa-close {
-    color: #f95d54;
+    color: #ff3300;
     font-size: 2em; }
   @media screen and (max-width: 600px) {
     .c-cart__items {
@@ -1516,7 +1785,7 @@ html, body {
             .c-cart .c-cart__billing--info--location .naming-classes-suck .card-number .c-cart__billing--info--location--name input[type=number] {
               -moz-appearance: textfield; }
           .c-cart .c-cart__billing--info--location .naming-classes-suck .card-number span {
-            color: #f95d54;
+            color: #ff3300;
             font-size: 1.2em; }
         .c-cart .c-cart__billing--info--location .naming-classes-suck i {
           color: #16cc9b; }
@@ -1556,7 +1825,7 @@ html, body {
       font-weight: 300;
       padding: 0.5em 0; }
       .c-cart .c-cart__billing--purchase--price span {
-        color: #f95d54;
+        color: #ff3300;
         font-weight: 600; }
     .c-cart .c-cart__billing--purchase .vl {
       width: 100%;

@@ -106,16 +106,131 @@
 									<img src="/img/search-white.png" alt="Search Icon">
 									<input class="black" type="text" placeholder="Хайх зүйлээ оруулна уу...">
 							</form>
-							<img src="/img/shopping-bag-53.png" alt="">
+							<div class="icon-with-hover">
+								<img src="/img/shopping-bag-53.png" alt="">
+								<div class="bag-hover-container">
+									<h3 class="p-3">Таны сагсанд байгаа бараанууд</h3>
+									
+									<div class="inner-bag-hover">
+										<h4>Хэрэглэгчийн нэр</h4>
+									<nav class="able-to-scroll">	
+										<ul>
+											<li><img src="/img/shopping-bag-53.png" alt="">
+												<div class="inner-bag-hover-product ">
+													<h6>Барааны нэр</h6>
+													<div class="c-single__info--quan quantity">
+														<input type="number" min="0" max="99" step="1" value="1">
+														<div class="c-single__info--quan_i">
+															<i class="fas fa-plus-square"></i>
+															<i class="fas fa-minus-square"></i>
+														</div>
+													</div>
+												</div>
+												<p>150'000</p>	
+												<button type="button" class="u-button_red-c">Хасах</button>
+											</li>
+											<li><img src="/img/shopping-bag-53.png" alt="">
+												<div class="inner-bag-hover-product ">
+													<h6>Барааны нэр</h6>
+													<div class="c-single__info--quan quantity">
+														<input type="number" min="0" max="99" step="1" value="1">
+														<div class="c-single__info--quan_i">
+															<i class="fas fa-plus-square"></i>
+															<i class="fas fa-minus-square"></i>
+														</div>
+													</div>
+												</div>
+												<p>150'000</p>	
+												<button type="button" class="u-button_red-c">Хасах</button>
+											</li>
+											<li><img src="/img/shopping-bag-53.png" alt="">
+												<div class="inner-bag-hover-product ">
+													<h6>Барааны нэр</h6>
+													<div class="c-single__info--quan quantity">
+														<input type="number" min="0" max="99" step="1" value="1">
+														<div class="c-single__info--quan_i">
+															<i class="fas fa-plus-square"></i>
+															<i class="fas fa-minus-square"></i>
+														</div>
+													</div>
+												</div>
+												<p>150'000</p>	
+												<button type="button" class="u-button_red-c">Хасах</button>
+											</li>
+											<li><img src="/img/shopping-bag-53.png" alt="">
+												<div class="inner-bag-hover-product ">
+													<h6>Барааны нэр</h6>
+													<div class="c-single__info--quan quantity">
+														<input type="number" min="0" max="99" step="1" value="1">
+														<div class="c-single__info--quan_i">
+															<i class="fas fa-plus-square"></i>
+															<i class="fas fa-minus-square"></i>
+														</div>
+													</div>
+												</div>
+												<p>150'000</p>	
+												<button type="button" class="u-button_red-c">Хасах</button>
+											</li>
+										</ul>
+									</nav>	
+										<div class="inner-bag-hover-tprice">Нийт дүн:300'000</div>
+										<div class="purchase-section">
+											<div class="u-button">Сагс руу очих</div>
+											<div class="u-button_red">Сагс хоослох</div>
+										</div>
+									</div>
+	
+								</div>
+							</div>
+
+							<div class="icon-with-hover1">
 							<img src="/img/account2.png" alt="">
+							<div class="bag-hover-container1">
+								<h3>Нэвтрэх</h3>
+								<div class="inner-bag-hover1">
+									<form action="/action_page.php" method="post">
+										
+										<div class="login-container">
+
+										  	<input type="text" placeholder="Хэрэглэгчийн нэр" name="uname" required>
+										  	<input type="password" placeholder="Нууц үг" name="psw" required>
+										  	<div class="in-one-row"> 
+										 		<label><input type="checkbox" checked="checked" name="remember"> Намайг сана</label>
+												<span class="psw"><a href="#">Нууц үг мартсан</a></span>
+										  	</div>
+										  <button class="u-button_red-login" type="submit">Нэвтрэх</button>									
+										</div>
+									  </form>
+
+								</div>
+							</div>
+							</div>
 					</div>
-			</div>
+			
 	</header>
 
 
 @yield('content')
 
 <footer>
+	
+	<div class="sticky-filter-mphone">Filter</div>
+	<div class="sticky-filter-hover">
+		<h3>Он /Сар/ Өдөр</h3>	
+		<nav class="sticky-filter-nav">
+			<ul class="sticky-filter-list">
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+				<li>2020.3.10</li>
+			</ul>
+		</nav>
+	</div>
     <div class="c-footer u-container">
 	<div class="c-footer__content u-flex_wrap">
 	    <div class="c-footer__content--quarter">

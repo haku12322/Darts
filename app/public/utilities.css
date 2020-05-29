@@ -81,19 +81,20 @@
   opacity: 1 !important; }
 
 .swiper-pagination-bullet-active {
-  background: #f95d54 !important; }
+  background: #ff3300 !important; }
 
 .u-button {
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
-  border-radius: 5px;
+  border-radius: 10px;
   line-height: 1;
   vertical-align: -10%;
   transition: all 500ms ease;
   color: white;
   background-color: #16cc9b;
-  border: 2px solid #16cc9b; }
+  border: 2px solid #16cc9b;
+  padding: 10px; }
   .u-button a {
     text-decoration: none;
     color: inherit; }
@@ -105,21 +106,22 @@
 
 .u-button_red {
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
-  border-radius: 5px;
+  border-radius: 10px;
   line-height: 1;
   vertical-align: -10%;
   transition: all 500ms ease;
   color: white;
-  background-color: #f95d54;
-  border: 2px solid #f95d54; }
+  background-color: #ff3300;
+  border: 2px solid #ff3300; 
+  padding: 10px;  }
   .u-button_red a {
     text-decoration: none;
     color: inherit; }
 
 .u-button_red:hover {
-  color: #f95d54;
+  color: #ff3300;
   background-color: transparent;
   transition: all 500ms ease; }
 
@@ -151,16 +153,16 @@
   line-height: 1;
   vertical-align: -10%;
   transition: all 500ms ease;
-  color: #f95d54;
+  color: #ff3300;
   background-color: transparent;
-  border: 1px solid #f95d54; }
+  border: 1px solid #ff3300; }
   .u-button2_red a {
     text-decoration: none;
     color: inherit; }
 
 .u-button2_red:hover {
   color: white;
-  background-color: #f95d54;
+  background-color: #ff3300;
   transition: all 500ms ease; }
 
 .u-button3 {
@@ -180,7 +182,7 @@
 
 .u-button3:hover {
   color: white;
-  background-color: #f95d54;
+  background-color: #ff3300;
   transition: all 500ms ease; }
 
 .u-hover_main::after {
@@ -188,7 +190,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background: #f95d54;
+  background: #ff3300;
   transition: width .6s; }
 
 .u-hover_main:hover::after {
@@ -313,16 +315,16 @@
         margin: 0.5em 0 0.25em;
         color: #d8d8d8; }
         .u-card .u-card__content--info_rating .rating1 {
-          color: #f95d54; }
+          color: #ff3300; }
         .u-card .u-card__content--info_rating .rating2 {
-          color: #f95d54; }
+          color: #ff3300; }
       .u-card .u-card__content--info h4 {
         font-size: .75em; }
       .u-card .u-card__content--info #p-type {
         color: #d8d8d8;
         font-size: 0.825em; }
       .u-card .u-card__content--info #p-price {
-        color: #f95d54;
+        color: #ff3300;
         font-weight: 500;
         margin: 0 .125em; }
       .u-card .u-card__content--info #p-price_old {
@@ -339,8 +341,8 @@
       justify-content: space-between;
       position: absolute;
       padding: 0.6em 1.2em;
-      border: 2px solid #f95d54;
-      background: #f95d54;
+      border: 2px solid #ff3300;
+      background: #ff3300;
       color: white;
       font-size: 1em;
       border-radius: 1.4em;
@@ -353,7 +355,7 @@
       width: 90%;
       left: 5%; }
       .u-card .u-card__content--button:hover {
-        color: #f95d54;
+        color: #ff3300;
         background-color: transparent;
         transition: all 500ms ease;
         cursor: pointer; }
@@ -494,7 +496,7 @@
 .u-fixedfilter {
   width: 100%;
   height: 40px;
-  background: #f95d54;
+  background: #ff3300;
   color: white;
   display: flex;
   justify-content: center;
@@ -567,6 +569,6 @@
 .a-redspacing {
   width: 100%;
   height: 200px;
-  background: #f95d54; }
+  background: #ff3300; }
 
 /*# sourceMappingURL=utilities.css.map */
